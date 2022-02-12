@@ -1,0 +1,75 @@
+/* Lighten main body color */
+.body {
+    color: #DDDDDD;
+}
+
+/* Navbar border */
+.navbar {
+    border-bottom: solid 2px #DDDDDD;
+}
+
+/* Header */
+.hidden_header {
+    color: #888888;
+    padding: 0 4% 0 0;
+}
+
+.hidden_header:hover {
+    color: #2A9FD6;
+}
+
+.unhidden_header {
+    padding: 0 4% 0 0;
+}
+
+/* Slider */
+.sliderInput {
+    height: 24px;
+}
+
+.sliderOutput {
+    color: #DDDDDD;
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+h4 {
+    font-size: 14pt;
+}
+
+/* Checkboxes */
+ul.noBullets {
+  list-style-type: none; /* Remove bullets */
+}
+
+.container input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.container input[type="radio"] + label {
+    font-size: 10pt;
+    color: #DDDDDD;
+    align: center;
+    border: 2px 0px 0px 0px dashed #2A9FD6;
+}
+
+.container input[type="radio"]:checked + label {
+    color: #2A9FD6;
+}
+
+.container input[type="radio"]:hover + label {
+    color: #2A9FD6;
+}
