@@ -12,8 +12,6 @@ function getValue(name) {
 function updateSelection() {
     var guild = getValue("Guild");
     var env = getValue("Environment");
-
-    alert(guild + " - " + env);
 }
 
 
