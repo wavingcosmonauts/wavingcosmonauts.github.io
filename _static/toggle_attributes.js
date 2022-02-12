@@ -1,43 +1,82 @@
-function unhide(headerID) {
-    var header = document.getElementById(headerID);
-    const allItems = [
-        "guild",
-        "environment",
-        "suit",
-        "visor",
-        "feature_base_color",
-        "features",
-        "number_of_features"
-    ];
+const allItems = [
+    "guild",
+    "environment",
+    "suit",
+    "visor",
+    "features",
+];
 
-    var focusedElem;
+function getValue(name) {
+    var radios = document.getElementsByName(name);
+    for (var i = 0, len = radios.length; i < len; i++) {
+        if (radios[i].checked) {
+            return radios[i].value;
+        }
+    }
+
+    return "none";
+}
+
+function updateVisuals(item) {
+    // Show current
+    var focusedElem = document.getElementById(item);
+    var focusedHeader = document.getElementById(item + "Header");
+    var focusedSelection = document.getElementById(item + "Selection");
+
+    // Hide rest
     var hiddenElems = [];
     var hiddenHeaders = [];
-
-    // Figure out which part to show and which to hide
+    var hiddenSelections = [];
     for (var i = 0, len = allItems.length; i < len; i++) {
         var currentItem = allItems[i];
-        var currentElem = document.getElementById(currentItem);
-        var currentHeader = document.getElementById(currentItem + "_header");
 
-        // This is the focused item
-        if (headerID.indexOf(currentItem) == 0) {
-            focusedElem = currentElem;
-        }
-        // Should be hidden
-        else {
-            hiddenElems.push(currentElem);
-            hiddenHeaders.push(currentHeader);
+        if (currentItem != item) {
+            hiddenElems.push(document.getElementById(currentItem));
+            hiddenHeaders.push(document.getElementById(currentItem + "Header"));
+            hiddenSelections.push(document.getElementById(currentItem + "Selection"));
         }
     }
 
     // Unhide focused element
     focusedElem.className = "unhidden";
-    header.className = "unhidden_header";
+    focusedHeader.className = "unhiddenHeader";
+    focusedSelection.className = "ulSelection";
 
     // Hide rest
     for (var i = 0, len = hiddenElems.length; i < len; i++) {
         hiddenElems[i].className = "hidden";
-        hiddenHeaders[i].className = "hidden_header";
+        hiddenHeaders[i].className = "hiddenHeader";
+        hiddenSelections[i].className = "ulSelectionHidden";
     }
+
+}
+
+function updateFilter() {
+    var guild = getValue("Guild");
+    var environment = getValue("Environment");
+    var suit = getValue("Suit");
+    var visor = getValue("Visor");
+    var features = getValue("Features");
+
+    // TODO filter
+}
+
+function headerOnClick() {
+    var item = this.id.replace("Header", "");
+    updateVisuals(item);
+}
+
+function selectionOnChange() {
+    var item = this.id.replace("Selection", "");
+    updateVisuals(item);
+    updateFilter();
+}
+
+for (var i = 0, len = allItems.length; i < len; i++) {
+    var name = allItems[i];
+    var selection = document.getElementById(name + "Selection");
+    var header = document.getElementById(name + "Header");
+
+    selection.onchange = selectionOnChange;
+    header.onclick = headerOnClick;
 }

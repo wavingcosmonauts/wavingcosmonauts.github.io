@@ -1,6 +1,7 @@
-.. title:: Home
+.. title:: Waving Cosmonauts
 
 .. image:: _static/banner.png
+   :target: `stargaze`_
 
 A collection of friendly cosmonaut NFTs available on stargaze
 =============================================================
@@ -37,20 +38,34 @@ Discover all the attributes
 
 .. raw:: html
 
-   <h6>
-   <a href="javascript:unhide('guild_header')" class="hidden_header" id="guild_header">guild</a>
-   <a href="javascript:unhide('environment_header')" class="hidden_header" id="environment_header">environment</a>
-   <a href="javascript:unhide('suit_header')" class="hidden_header" id="suit_header">suit</a>
-   <a href="javascript:unhide('visor_header')" class="hidden_header" id="visor_header">visor</a>
-   <a href="javascript:unhide('feature_base_color_header')" class="hidden_header" id="feature_base_color_header">feature base color</a>
-   <a href="javascript:unhide('features_header')" class="hidden_header" id="features_header">features</a>
-   <a href="javascript:unhide('number_of_features_header')" class="hidden_header" id="number_of_features_header">number of features</a>
-   </h6>
+   <div>
+   <a class="unhiddenHeader" id="guildHeader">guild</a>
+   <a class="hiddenHeader" id="environmentHeader">environment</a>
+   <a class="hiddenHeader" id="suitHeader">suit</a>
+   <a class="hiddenHeader" id="visorHeader">visor</a>
+   <a class="hiddenHeader" id="featuresHeader">features</a>
+   </div>
 
    <div id="guild" class="unhidden">
        The guild is the main attribute of each cosmonaut as it defines the token or
        entity it supports. Which flag do you want to wave?
-       <ul>
+   </div>
+   <div id="environment" class="hidden">
+       The environment arguably defines the look of each individual image the most.
+       Which part of the cosmoverse do you want to explore?
+   </div>
+   <div id="suit" class="hidden">
+       Team? Picked. Exploration? Started. But how should your suit look?
+   </div>
+   <div id="visor" class="hidden">
+       Next step: an irresistable visor style!
+   </div>
+   <div id="features" class="hidden">
+        How do you want to make your comonaut unique?
+   </div>
+
+   <div class="divSelection">
+       <ul class="ulSelection" id="guildSelection">
         <li>
         <input type="radio" id="Akash Network" name="Guild" value="Akash Network">
         <label for="Akash Network">Akash Network</label>
@@ -140,12 +155,8 @@ Discover all the attributes
         <label for="Terra Luna">Terra Luna</label>
         </li>
        </ul>
-   </div>
 
-   <div id="environment" class="hidden">
-       The environment arguably defines the look of each individual image the most.
-       Which part of the cosmoverse do you want to explore?
-       <ul>
+       <ul class="ulSelectionHidden" id="environmentSelection">
         <li>
         <input type="radio" id="alien world" name="Environment" value="alien world">
         <label for="alien world">alien world</label>
@@ -191,78 +202,142 @@ Discover all the attributes
         <label for="spaceship">spaceship</label>
         </li>
        </ul>
-   </div>
 
-   <div id="suit" class="hidden">
-       Team? Picked. Exploration? Started. But how should your suit look?
-       <ul>
-        <li>blue (16)</li>
-        <li>blue gradient (3)</li>
-        <li>cyan (7)</li>
-        <li>cyan gradient (1)</li>
-        <li>gray (25)</li>
-        <li>green (17)</li>
-        <li>green gradient (5)</li>
-        <li>orange (6)</li>
-        <li>orange gradient (1)</li>
-        <li>pink (8)</li>
-        <li>purple (8)</li>
-        <li>rainbow (2)</li>
-        <li>red (5)</li>
-        <li>white (277)</li>
-        <li>yellow (3)</li>
+       <ul class="ulSelectionHidden" id="suitSelection">
+        <li>
+        <input type="radio" id="blue" name="Suit" value="blue">
+        <label for="blue">blue</label>
+        </li>
+        <li>
+        <input type="radio" id="blue gradient" name="Suit" value="blue gradient">
+        <label for="blue gradient">blue gradient</label>
+        </li>
+        <li>
+        <input type="radio" id="cyan" name="Suit" value="cyan">
+        <label for="cyan">cyan</label>
+        </li>
+        <li>
+        <input type="radio" id="cyan gradient" name="Suit" value="cyan gradient">
+        <label for="cyan gradient">cyan gradient</label>
+        </li>
+        <li>
+        <input type="radio" id="gray" name="Suit" value="gray">
+        <label for="gray">gray</label>
+        </li>
+        <li>
+        <input type="radio" id="green" name="Suit" value="green">
+        <label for="green">green</label>
+        </li>
+        <li>
+        <input type="radio" id="green gradient" name="Suit" value="green gradient">
+        <label for="green gradient">green gradient</label>
+        </li>
+        <li>
+        <input type="radio" id="orange" name="Suit" value="orange">
+        <label for="orange">orange</label>
+        </li>
+        <li>
+        <input type="radio" id="orange gradient" name="Suit" value="orange gradient">
+        <label for="orange gradient">orange gradient</label>
+        </li>
+        <li>
+        <input type="radio" id="pink" name="Suit" value="pink">
+        <label for="pink">pink</label>
+        </li>
+        <li>
+        <input type="radio" id="purple" name="Suit" value="purple">
+        <label for="purple">purple</label>
+        </li>
+        <li>
+        <input type="radio" id="rainbow" name="Suit" value="rainbow">
+        <label for="rainbow">rainbow</label>
+        </li>
+        <li>
+        <input type="radio" id="red" name="Suit" value="red">
+        <label for="red">red</label>
+        </li>
+        <li>
+        <input type="radio" id="white" name="Suit" value="white">
+        <label for="white">white</label>
+        </li>
+        <li>
+        <input type="radio" id="yellow" name="Suit" value="yellow">
+        <label for="yellow">yellow</label>
+        </li>
+       </ul>
+
+       <ul class="ulSelectionHidden" id="visorSelection">
+        <li>
+        <input type="radio" id="diagonal gradient" name="Visor" value="diagonal gradient">
+        <label for="diagonal gradient">diagonal gradient</label>
+        </li>
+        <li>
+        <input type="radio" id="horizontal gradient" name="Visor" value="horizontal gradient">
+        <label for="horizontal gradient">horizontal gradient</label>
+        </li>
+        <li>
+        <input type="radio" id="plain" name="Visor" value="plain">
+        <label for="plain">plain</label>
+        </li>
+       </ul>
+       
+       <ul class="ulSelectionHidden" id="featuresSelection">
+        <li>
+        <input type="radio" id="airdrop basket" name="Features" value="airdrop basket">
+        <label for="airdrop basket">airdrop basket</label>
+        </li>
+        <li>
+        <input type="radio" id="boots" name="Features" value="boots">
+        <label for="boots">boots</label>
+        </li>
+        <li>
+        <input type="radio" id="comet" name="Features" value="comet">
+        <label for="comet">comet</label>
+        </li>
+        <li>
+        <input type="radio" id="gloves" name="Features" value="gloves">
+        <label for="gloves">gloves</label>
+        </li>
+        <li>
+        <input type="radio" id="music notes" name="Features" value="music notes">
+        <label for="music notes">music notes</label>
+        </li>
+        <li>
+        <input type="radio" id="none" name="Features" value="none">
+        <label for="none">none</label>
+        </li>
+        <li>
+        <input type="radio" id="rocket" name="Features" value="rocket">
+        <label for="rocket">rocket</label>
+        </li>
+        <li>
+        <input type="radio" id="smoke" name="Features" value="smoke">
+        <label for="smoke">smoke</label>
+        </li>
+        <li>
+        <input type="radio" id="stripes" name="Features" value="stripes">
+        <label for="stripes">stripes</label>
+        </li>
        </ul>
    </div>
 
-   <div id="visor" class="hidden">
-       Next step: an irresistable visor style!
-       <ul>
-        <li>diagonal gradient (13)</li>
-        <li>horizontal gradient (16)</li>
-        <li>plain (355)</li>
-       </ul>
-   </div>
-
-   <div id="feature_base_color" class="hidden">
-       And what about the main color of all cosmonaut features?
-       <ul>
-        <li>blue (96)</li>
-        <li>cyan (30)</li>
-        <li>green (80)</li>
-        <li>orange (46)</li>
-        <li>pink (35)</li>
-        <li>purple (36)</li>
-        <li>red (32)</li>
-        <li>yellow (29)</li>
-       </ul>
-   </div>
-
-   <div id="features" class="hidden">
-       features
-   </div>
-
-   <div id="number_of_features" class="hidden">
-       Nice feature picks! In total you wanted how many again?
-       <ul>
-        <li>0 (205)</li>
-        <li>1 (141)</li>
-        <li>2 (30)</li>
-        <li>3 (8)</li>
-       </ul>
-   </div>
-
-   <script src="_static/selection.js"></script>
+   <script src="_static/toggle_attributes.js"></script>
+   <script src="_static/radio_click.js"></script>
 
 
 .. raw:: html
 
+    <p>
+    <br>
     <a href="https://stargaze.zone" style="font-size: 18pt">
     And, finally, grab yours on stargaze!
     </a>
+    <br>
+    </p>
 
 .. _stargaze: https://stargaze.zone
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    cosmonauts/index

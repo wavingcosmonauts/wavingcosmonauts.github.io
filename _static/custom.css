@@ -9,17 +9,33 @@
 }
 
 /* Header */
-.hidden_header {
+.hiddenHeader {
+    font-size: 12pt;
+    font-weight: bold;
     color: #888888;
-    padding: 0 4% 0 0;
+    padding: 0 0 0 0;
+    width: 19%;
+    display: inline-block;
 }
 
-.hidden_header:hover {
+.hiddenHeader:hover {
     color: #2A9FD6;
 }
 
-.unhidden_header {
-    padding: 0 4% 0 0;
+.unhiddenHeader {
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    width: 19%;
+    display: inline-block;
+}
+
+.hidden {
+    height: 50px;
+}
+
+.unhidden {
+    height: 50px;
 }
 
 /* Slider */
@@ -49,10 +65,6 @@ h4 {
 }
 
 /* Checkboxes */
-ul.noBullets {
-  list-style-type: none; /* Remove bullets */
-}
-
 .container input[type="radio"] {
   opacity: 0;
   position: fixed;
@@ -61,7 +73,6 @@ ul.noBullets {
 
 .container input[type="radio"] + label {
     font-size: 10pt;
-    color: #DDDDDD;
     align: center;
     border: 2px 0px 0px 0px dashed #2A9FD6;
 }
@@ -72,4 +83,26 @@ ul.noBullets {
 
 .container input[type="radio"]:hover + label {
     color: #2A9FD6;
+}
+
+.container input[type="radio"]:checked:hover + label {
+    color: #4ABFF6;
+}
+
+.ulSelection {
+    width: 19%;
+    color: #DDDDDD;
+    display: inline-block;
+    padding: 0 0;
+    vertical-align: top;
+    font-size: 10pt;
+}
+
+.ulSelectionHidden {
+    width: 19%;
+    color: #888888;
+    display: inline-block;
+    padding: 0 0;
+    vertical-align: top;
+    font-size: 10pt;
 }
