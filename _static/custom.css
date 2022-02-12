@@ -93,7 +93,7 @@ h4 {
     width: 19%;
     color: #DDDDDD;
     display: inline-block;
-    padding: 0 0;
+    padding: 0 4px;
     vertical-align: top;
     font-size: 10pt;
 }
@@ -102,7 +102,7 @@ h4 {
     width: 19%;
     color: #888888;
     display: inline-block;
-    padding: 0 0;
+    padding: 0 4px;
     vertical-align: top;
     font-size: 10pt;
 }
