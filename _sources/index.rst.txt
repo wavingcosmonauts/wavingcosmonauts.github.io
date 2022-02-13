@@ -3,7 +3,7 @@
 .. image:: _static/banner.png
    :target: `stargaze`_
 
-A collection of friendly cosmonaut NFTs available on stargaze
+A collection of friendly cosmonaut NFTs available on Stargaze
 =============================================================
 
 Each cosmonaut is a 48x48 pixel image with a unique combination of traits. The most
@@ -13,7 +13,7 @@ as well as multiple specials.
 
 .. note::
 
-   This website is a dummy with similar content as planned for the mint on stargaze.
+   This website is a dummy with similar content as planned for the mint on Stargaze.
    Details and all cosmonauts are subject to change.
    Any feedback is welcome!
 
@@ -40,7 +40,7 @@ Discover all the attributes
 
    <div>
    <a class="unhiddenHeader" id="guildHeader">guild</a>
-   <a class="hiddenHeader" id="environmentHeader">environment</a>
+   <a class="hiddenHeader" id="environmentHeader">environ<br class="mobileBreak">ment</a>
    <a class="hiddenHeader" id="suitHeader">suit</a>
    <a class="hiddenHeader" id="visorHeader">visor</a>
    <a class="hiddenHeader" id="featuresHeader">features</a>
@@ -295,7 +295,7 @@ Discover all the attributes
     <p>
     <br>
     <a href="https://stargaze.zone" style="font-size: 18pt">
-    And, finally, grab yours on stargaze!
+    And, finally, grab yours on Stargaze!
     </a>
     <br>
     </p>

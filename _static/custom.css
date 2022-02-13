@@ -108,3 +108,7 @@ h4 {
     font-size: 10pt;
     list-style: none;
 }
+
+@media screen and (min-width: 600px)  {
+    .mobileBreak { display: none; }
+}
