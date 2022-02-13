@@ -8,18 +8,18 @@ Cosmonaut #101
 
 .. image:: /_static/cosmonauts/cosmonaut-101.png
 
-Friendly cosmonaut of the scrt guild
+Friendly cosmonaut of the juno guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Secret Network,23,6.0 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,green,79,20.6 %
-   Features,gloves + boots + comet,0,0.0 %
-   Number of features,3,7,1.8 %
+   Guild,Juno,21,5.5 %
+   Environment,space with moon,5,1.3 %
+   Suit,colored,76,19.8 %
+   Visor,plain,341,88.8 %
+   Feature base color,cyan,31,8.1 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

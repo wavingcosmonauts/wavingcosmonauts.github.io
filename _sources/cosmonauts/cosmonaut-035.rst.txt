@@ -8,18 +8,18 @@ Cosmonaut #035
 
 .. image:: /_static/cosmonauts/cosmonaut-035.png
 
-Friendly cosmonaut of the luna guild
+Friendly cosmonaut of the dvpn guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Terra Luna,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,cyan,6,1.6 %
-   Visor,plain,354,92.2 %
-   Feature base color,green,79,20.6 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,Sentinel,43,11.2 %
+   Environment,space,267,69.5 %
+   Suit,gray,20,5.2 %
+   Visor,plain,341,88.8 %
+   Feature base color,cyan,31,8.1 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

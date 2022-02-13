@@ -8,18 +8,18 @@ Cosmonaut #246
 
 .. image:: /_static/cosmonauts/cosmonaut-246.png
 
-Friendly cosmonaut of the cmdx guild
+Friendly cosmonaut of the osmosis guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Comdex,7,1.8 %
-   Environment,space,271,70.6 %
-   Suit,orange,5,1.3 %
-   Visor,horizontal gradient,15,3.9 %
-   Feature base color,pink,34,8.9 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Osmosis,31,8.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,airdrop basket,9,2.3 %
+   Number of features,1,143,37.2 %
 
 

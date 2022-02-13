@@ -8,18 +8,18 @@ Cosmonaut #380
 
 .. image:: /_static/cosmonauts/cosmonaut-380.png
 
-Friendly cosmonaut of the scrt guild
+Friendly cosmonaut of the juno guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Secret Network,23,6.0 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Juno,21,5.5 %
+   Environment,space with planet,17,4.4 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,green,85,22.1 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

@@ -15,11 +15,11 @@ Friendly cosmonaut of the dvpn guild
    :header: Trait,Value,Other with this value,Percent
 
    Guild,Sentinel,43,11.2 %
-   Environment,moon surface,9,2.3 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,orange,45,11.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,diagonal gradient,21,5.5 %
+   Feature base color,green,85,22.1 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

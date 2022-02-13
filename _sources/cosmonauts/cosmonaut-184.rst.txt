@@ -15,11 +15,11 @@ Friendly cosmonaut of the cosmos guild
    :header: Trait,Value,Other with this value,Percent
 
    Guild,Cosmos Hub,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,orange,45,11.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Environment,space,267,69.5 %
+   Suit,colored,76,19.8 %
+   Visor,plain,341,88.8 %
+   Feature base color,pink,31,8.1 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

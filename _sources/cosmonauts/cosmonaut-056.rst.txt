@@ -8,18 +8,18 @@ Cosmonaut #056
 
 .. image:: /_static/cosmonauts/cosmonaut-056.png
 
-Friendly cosmonaut of the osmosis guild
+Friendly cosmonaut of the cosmos guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Osmosis,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,Cosmos Hub,31,8.1 %
+   Environment,space with blood moon,2,0.5 %
+   Suit,colored,76,19.8 %
+   Visor,plain,341,88.8 %
+   Feature base color,cyan,31,8.1 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

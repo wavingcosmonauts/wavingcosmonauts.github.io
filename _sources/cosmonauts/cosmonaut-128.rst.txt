@@ -8,18 +8,18 @@ Cosmonaut #128
 
 .. image:: /_static/cosmonauts/cosmonaut-128.png
 
-Friendly cosmonaut of the huahua guild
+Friendly cosmonaut of the luna guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Chihuahua,55,14.3 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,cyan,29,7.6 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,Terra Luna,31,8.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,horizontal gradient,19,4.9 %
+   Feature base color,orange,41,10.7 %
+   Features,gloves + stripes,8,2.1 %
+   Number of features,2,35,9.1 %
 
 

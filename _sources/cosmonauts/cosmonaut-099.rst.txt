@@ -8,18 +8,18 @@ Cosmonaut #099
 
 .. image:: /_static/cosmonauts/cosmonaut-099.png
 
-Friendly cosmonaut of the stars guild
+Friendly cosmonaut of the huahua guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Stargaze,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,blue,15,3.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,pink,34,8.9 %
-   Features,stripes + airdrop basket,1,0.3 %
-   Number of features,2,29,7.6 %
+   Guild,Chihuahua,54,14.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

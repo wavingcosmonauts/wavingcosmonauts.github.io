@@ -8,18 +8,18 @@ Cosmonaut #332
 
 .. image:: /_static/cosmonauts/cosmonaut-332.png
 
-Friendly cosmonaut of the racoon guild
+Friendly cosmonaut of the akt guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Racoon,3,0.8 %
-   Environment,planet surface,44,11.5 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Akash Network,23,6.0 %
+   Environment,space,267,69.5 %
+   Suit,gray,20,5.2 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,gloves,31,8.1 %
+   Number of features,1,143,37.2 %
 
 

@@ -8,18 +8,18 @@ Cosmonaut #119
 
 .. image:: /_static/cosmonauts/cosmonaut-119.png
 
-Friendly cosmonaut of the dvpn guild
+Friendly cosmonaut of the btsg guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Sentinel,43,11.2 %
-   Environment,space,271,70.6 %
-   Suit,blue,15,3.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,orange,45,11.7 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,BitSong,7,1.8 %
+   Environment,galaxy,7,1.8 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,green,85,22.1 %
+   Features,gloves + music notes,0,0.0 %
+   Number of features,2,35,9.1 %
 
 

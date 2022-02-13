@@ -8,18 +8,18 @@ Cosmonaut #317
 
 .. image:: /_static/cosmonauts/cosmonaut-317.png
 
-Friendly cosmonaut of the dvpn guild
+Friendly cosmonaut of the osmosis guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Sentinel,43,11.2 %
-   Environment,space,271,70.6 %
-   Suit,gray,24,6.2 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Osmosis,31,8.1 %
+   Environment,space,267,69.5 %
+   Suit,gray,20,5.2 %
+   Visor,diagonal gradient,21,5.5 %
+   Feature base color,pink,31,8.1 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

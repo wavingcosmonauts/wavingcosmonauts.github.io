@@ -8,18 +8,18 @@ Cosmonaut #375
 
 .. image:: /_static/cosmonauts/cosmonaut-375.png
 
-Friendly cosmonaut of the huahua guild
+Friendly cosmonaut of the scrt guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Chihuahua,55,14.3 %
-   Environment,galaxy,4,1.0 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,Secret Network,23,6.0 %
+   Environment,space,267,69.5 %
+   Suit,gray,20,5.2 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

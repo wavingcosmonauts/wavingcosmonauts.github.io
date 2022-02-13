@@ -15,11 +15,11 @@ Friendly cosmonaut of the stars guild
    :header: Trait,Value,Other with this value,Percent
 
    Guild,Stargaze,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,cyan,6,1.6 %
-   Visor,plain,354,92.2 %
-   Feature base color,red,31,8.1 %
-   Features,airdrop basket,9,2.3 %
-   Number of features,1,140,36.5 %
+   Environment,space,267,69.5 %
+   Suit,colored,76,19.8 %
+   Visor,plain,341,88.8 %
+   Feature base color,purple,45,11.7 %
+   Features,stripes + airdrop basket,5,1.3 %
+   Number of features,2,35,9.1 %
 
 

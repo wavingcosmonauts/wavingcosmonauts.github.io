@@ -15,11 +15,11 @@ Friendly cosmonaut of the scrt guild
    :header: Trait,Value,Other with this value,Percent
 
    Guild,Secret Network,23,6.0 %
-   Environment,planet surface,44,11.5 %
-   Suit,green,16,4.2 %
-   Visor,plain,354,92.2 %
-   Feature base color,green,79,20.6 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Environment,spaceship,20,5.2 %
+   Suit,white,267,69.5 %
+   Visor,diagonal gradient,21,5.5 %
+   Feature base color,cyan,31,8.1 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

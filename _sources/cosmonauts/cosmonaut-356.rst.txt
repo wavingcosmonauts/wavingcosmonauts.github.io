@@ -8,18 +8,18 @@ Cosmonaut #356
 
 .. image:: /_static/cosmonauts/cosmonaut-356.png
 
-Friendly cosmonaut of the akt guild
+Friendly cosmonaut of the scrt guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Akash Network,23,6.0 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,diagonal gradient,12,3.1 %
-   Feature base color,yellow,28,7.3 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Secret Network,23,6.0 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,diagonal gradient,21,5.5 %
+   Feature base color,purple,45,11.7 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

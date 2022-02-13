@@ -8,18 +8,18 @@ Cosmonaut #050
 
 .. image:: /_static/cosmonauts/cosmonaut-050.png
 
-Friendly cosmonaut of the cosmos guild
+Friendly cosmonaut of the dvpn guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Cosmos Hub,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,cyan,6,1.6 %
-   Visor,plain,354,92.2 %
-   Feature base color,green,79,20.6 %
-   Features,boots,19,4.9 %
-   Number of features,1,140,36.5 %
+   Guild,Sentinel,43,11.2 %
+   Environment,space with planet,17,4.4 %
+   Suit,white,267,69.5 %
+   Visor,horizontal gradient,19,4.9 %
+   Feature base color,blue,91,23.7 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

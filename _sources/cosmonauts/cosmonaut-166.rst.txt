@@ -8,18 +8,18 @@ Cosmonaut #166
 
 .. image:: /_static/cosmonauts/cosmonaut-166.png
 
-Friendly cosmonaut of the huahua guild
+Friendly cosmonaut of the cro guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Chihuahua,55,14.3 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,horizontal gradient,15,3.9 %
-   Feature base color,green,79,20.6 %
-   Features,boots,19,4.9 %
-   Number of features,1,140,36.5 %
+   Guild,crypto.com,31,8.1 %
+   Environment,space,267,69.5 %
+   Suit,colored,76,19.8 %
+   Visor,plain,341,88.8 %
+   Feature base color,cyan,31,8.1 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

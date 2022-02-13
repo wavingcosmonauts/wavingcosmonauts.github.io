@@ -8,18 +8,18 @@ Cosmonaut #311
 
 .. image:: /_static/cosmonauts/cosmonaut-311.png
 
-Friendly cosmonaut of the cro guild
+Friendly cosmonaut of the stars guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,crypto.com,31,8.1 %
-   Environment,space with planet,18,4.7 %
-   Suit,blue,15,3.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,pink,34,8.9 %
-   Features,gloves,20,5.2 %
-   Number of features,1,140,36.5 %
+   Guild,Stargaze,31,8.1 %
+   Environment,planet surface,37,9.6 %
+   Suit,white,267,69.5 %
+   Visor,horizontal gradient,19,4.9 %
+   Feature base color,pink,31,8.1 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

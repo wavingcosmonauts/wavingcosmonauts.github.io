@@ -8,18 +8,18 @@ Cosmonaut #251
 
 .. image:: /_static/cosmonauts/cosmonaut-251.png
 
-Friendly cosmonaut of the huahua guild
+Friendly cosmonaut of the regen guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Chihuahua,55,14.3 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,horizontal gradient,15,3.9 %
-   Feature base color,green,79,20.6 %
-   Features,comet,8,2.1 %
-   Number of features,1,140,36.5 %
+   Guild,Regen Network,9,2.3 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,stripes + rocket,1,0.3 %
+   Number of features,2,35,9.1 %
 
 

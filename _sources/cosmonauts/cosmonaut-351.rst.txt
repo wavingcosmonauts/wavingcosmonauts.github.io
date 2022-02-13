@@ -8,18 +8,18 @@ Cosmonaut #351
 
 .. image:: /_static/cosmonauts/cosmonaut-351.png
 
-Friendly cosmonaut of the scrt guild
+Friendly cosmonaut of the neta guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Secret Network,23,6.0 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,green,79,20.6 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Neta,0,0.0 %
+   Environment,space,267,69.5 %
+   Suit,colored,76,19.8 %
+   Visor,horizontal gradient,19,4.9 %
+   Feature base color,blue,91,23.7 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

@@ -8,18 +8,18 @@ Cosmonaut #347
 
 .. image:: /_static/cosmonauts/cosmonaut-347.png
 
-Friendly cosmonaut of the dvpn guild
+Friendly cosmonaut of the luna guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Sentinel,43,11.2 %
-   Environment,planet surface,44,11.5 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,orange,45,11.7 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,Terra Luna,31,8.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

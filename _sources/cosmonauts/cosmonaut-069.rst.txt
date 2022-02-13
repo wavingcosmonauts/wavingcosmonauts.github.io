@@ -8,18 +8,18 @@ Cosmonaut #069
 
 .. image:: /_static/cosmonauts/cosmonaut-069.png
 
-Friendly cosmonaut of the luna guild
+Friendly cosmonaut of the akt guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Terra Luna,31,8.1 %
-   Environment,space,271,70.6 %
-   Suit,gray,24,6.2 %
-   Visor,plain,354,92.2 %
-   Feature base color,green,79,20.6 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Akash Network,23,6.0 %
+   Environment,space,267,69.5 %
+   Suit,colored,76,19.8 %
+   Visor,diagonal gradient,21,5.5 %
+   Feature base color,green,85,22.1 %
+   Features,gloves,31,8.1 %
+   Number of features,1,143,37.2 %
 
 

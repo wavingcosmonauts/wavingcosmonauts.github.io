@@ -15,11 +15,11 @@ Friendly cosmonaut of the akt guild
    :header: Trait,Value,Other with this value,Percent
 
    Guild,Akash Network,23,6.0 %
-   Environment,deep field,4,1.0 %
-   Suit,orange,5,1.3 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Environment,space,267,69.5 %
+   Suit,colored,76,19.8 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 

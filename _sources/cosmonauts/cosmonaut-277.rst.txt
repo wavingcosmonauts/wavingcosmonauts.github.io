@@ -8,18 +8,18 @@ Cosmonaut #277
 
 .. image:: /_static/cosmonauts/cosmonaut-277.png
 
-Friendly cosmonaut of the juno guild
+Friendly cosmonaut of the scrt guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Juno,21,5.5 %
-   Environment,planet surface,44,11.5 %
-   Suit,green,16,4.2 %
-   Visor,horizontal gradient,15,3.9 %
-   Feature base color,green,79,20.6 %
-   Features,stripes,69,18.0 %
-   Number of features,1,140,36.5 %
+   Guild,Secret Network,23,6.0 %
+   Environment,spaceship,20,5.2 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,pink,31,8.1 %
+   Features,none,199,51.8 %
+   Number of features,0,199,51.8 %
 
 

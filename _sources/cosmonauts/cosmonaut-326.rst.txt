@@ -8,18 +8,18 @@ Cosmonaut #326
 
 .. image:: /_static/cosmonauts/cosmonaut-326.png
 
-Friendly cosmonaut of the xprt guild
+Friendly cosmonaut of the stars guild
 
 .. csv-table:: Attributes
    :widths: auto
    :header: Trait,Value,Other with this value,Percent
 
-   Guild,Persistence,9,2.3 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,orange,45,11.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Guild,Stargaze,31,8.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,plain,341,88.8 %
+   Feature base color,blue,91,23.7 %
+   Features,stripes + airdrop basket,5,1.3 %
+   Number of features,2,35,9.1 %
 
 

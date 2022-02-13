@@ -15,11 +15,11 @@ Friendly cosmonaut of the xprt guild
    :header: Trait,Value,Other with this value,Percent
 
    Guild,Persistence,9,2.3 %
-   Environment,space,271,70.6 %
-   Suit,white,276,71.9 %
-   Visor,plain,354,92.2 %
-   Feature base color,blue,95,24.7 %
-   Features,none,204,53.1 %
-   Number of features,0,204,53.1 %
+   Environment,space,267,69.5 %
+   Suit,white,267,69.5 %
+   Visor,diagonal gradient,21,5.5 %
+   Feature base color,blue,91,23.7 %
+   Features,stripes,71,18.5 %
+   Number of features,1,143,37.2 %
 
 
