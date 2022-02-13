@@ -14,7 +14,7 @@ function getValue(name) {
         }
     }
 
-    return "none";
+    return "unchecked";
 }
 
 function updateVisuals(item) {
@@ -51,15 +51,68 @@ function updateVisuals(item) {
 
 }
 
-function updateFilter() {
-    var guild = getValue("Guild");
-    var environment = getValue("Environment");
-    var suit = getValue("Suit");
-    var visor = getValue("Visor");
-    var features = getValue("Features");
+function matchingRows(attributes) {
+    function rowMatches(row) {
+        if (attributes[0] != "unchecked" && row[0] != attributes[0]) {
+            return false;
+        }
+        if (attributes[1] != "unchecked" && row[1] != attributes[1]) {
+            return false;
+        }
+        if (attributes[2] != "unchecked" && row[2] != attributes[2]) {
+            return false;
+        }
+        if (attributes[3] != "unchecked" && row[3] != attributes[3]) {
+            return false;
+        }
+        if (attributes[4] != "unchecked" && !row[5].includes(attributes[4])) {
+            return false;
+        }
+        return true;
+    }
 
-    // TODO filter
+    var matchIdx = [];
+
+    for (var i = 0, len = cosmonautData.length; i < len; i++) {
+        var row = cosmonautData[i];
+        if (rowMatches(row)) {
+            matchIdx.push(i);
+        }
+    }
+
+    return matchIdx;
 }
+
+function updateFilter() {
+    const attributeNames = ["Guild", "Environment", "Suit", "Visor", "Features"];
+
+    var attributeValues = [
+        getValue("Guild"),
+        getValue("Environment"),
+        getValue("Suit"),
+        getValue("Visor"),
+        getValue("Features"),
+    ];
+
+
+    const matchIdx = matchingRows(attributeValues);
+
+    cosmonautSlider.updateFilter(matchIdx);
+
+    for (var i = 0, len = attributeNames.length; i < len; i++) {
+        const radios = document.getElementsByName(attributeNames[i]);
+        var localValues = [...attributeValues];
+
+        for (var j = 0, rlen = radios.length; j < rlen; j++) {
+            const radio = radios[j];
+            const label = $("label[for='" + radio.id + "']")[0];
+            localValues[i] = radio.value;
+            const localMatchIdx = matchingRows(localValues);
+            label.innerText = radio.value + " (" + localMatchIdx.length + ")";
+        }
+    }
+}
+
 
 function headerOnClick() {
     var item = this.id.replace("Header", "");
@@ -77,6 +130,8 @@ for (var i = 0, len = allItems.length; i < len; i++) {
     var selection = document.getElementById(name + "Selection");
     var header = document.getElementById(name + "Header");
 
-    selection.onchange = selectionOnChange;
+    selection.onclick = selectionOnChange;
     header.onclick = headerOnClick;
 }
+
+updateFilter();

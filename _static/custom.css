@@ -96,6 +96,7 @@ h4 {
     padding: 0 4px;
     vertical-align: top;
     font-size: 10pt;
+    list-style: none;
 }
 
 .ulSelectionHidden {
@@ -105,4 +106,5 @@ h4 {
     padding: 0 4px;
     vertical-align: top;
     font-size: 10pt;
+    list-style: none;
 }

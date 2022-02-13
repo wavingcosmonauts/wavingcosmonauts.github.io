@@ -321,6 +321,7 @@ Discover all the attributes
        </ul>
    </div>
 
+   <script src="_static/data.js"></script>
    <script src="_static/toggle_attributes.js"></script>
    <script src="_static/radio_click.js"></script>
 

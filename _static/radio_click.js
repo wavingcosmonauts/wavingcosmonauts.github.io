@@ -1,16 +1,13 @@
 $("input[type=radio]").each(function() {
-    var secondClick = false;
 
-    $(this).change(function() {
-        secondClick = true;
-    });
+    this.oldvalue = "unchecked";
 
-    $(this).click(function() {
-        if (secondClick) {
-            $(this).prop("checked", false);
+    this.onclick = function() {
+        if (this.value == this.oldvalue) {
+            this.checked = false;
+            this.oldvalue = "unchecked";
+        } else {
+            this.oldvalue = this.value;
         }
-        secondClick = false;
-
-        updateSelection();
-    });
+    }
 });
