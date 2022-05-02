@@ -1,3 +1,3 @@
 # Website for Waving Cosmonauts
 
-work in progress :)
+Redirecting to the new page https://www.wavingcosmonauts.space/
